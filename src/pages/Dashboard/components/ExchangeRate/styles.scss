@@ -1,0 +1,28 @@
+.exchange-rate {
+    &__header {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    &__readonly-mode {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 8px;
+    }
+
+    &__edit-mode {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        column-gap: 8px;
+    }
+
+    &__edit-actions {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+}

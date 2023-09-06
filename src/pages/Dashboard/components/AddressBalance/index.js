@@ -1,0 +1,1 @@
+export { AddressesBalance } from './AddressBalance';

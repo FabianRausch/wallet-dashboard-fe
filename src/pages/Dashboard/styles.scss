@@ -1,0 +1,12 @@
+.dashboard {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__line {
+        margin: 50px;
+        width: 500px;
+    }
+}

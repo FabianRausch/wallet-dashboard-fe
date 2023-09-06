@@ -1,0 +1,15 @@
+.address-form {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+    align-items: center;
+
+    &__textfield {
+        width: 85%;
+    }
+
+    &__button {
+        width: 15%;
+    }
+}
